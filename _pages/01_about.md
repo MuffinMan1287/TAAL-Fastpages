@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-{% block body %}
+
     <style>
         body {
             background:#fee3c3;
@@ -178,4 +178,3 @@ permalink: /about/
                 <button class="button"><a href="https://taykimmy.github.io/VSCodeProject/">Fastpages</a></button>
     </div>
 
-{% endblock %}
