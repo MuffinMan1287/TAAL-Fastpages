@@ -64,7 +64,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/PracticeNexus/search/">Search</a><a class="page-link" href="/PracticeNexus/about/">About Me</a><a class="page-link" href="/PracticeNexus/vocab/">Vocab</a><a class="page-link" href="/PracticeNexus/gov/">AP Government</a><a class="page-link" href="/PracticeNexus/categories/">Tags</a><a class="page-link" href="/PracticeNexus/stub/">Stub</a></div>
+        <div class="trigger"><a class="page-link" href="/PracticeNexus/search/">Search</a><a class="page-link" href="/PracticeNexus/about/">About Me</a><a class="page-link" href="/PracticeNexus/categories/">Tags</a><a class="page-link" href="/PracticeNexus/stub/">Stub</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -76,22 +76,180 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <p><img src="/PracticeNexus/images/aboutme.png" alt="" /></p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;style&gt;
+    body {
+        background:#fee3c3;
+    }
 
-<p>Hi! My name is Arnav Kanekar, and I am currently using this website as a place for my AP Computer Science Principles courses and other classes throughout the school year.</p>
+    .paddingleft {
+        float: left;
+        width: 5%;
+        color: rgb(220, 202, 152);
+        background-color: #fee3c3;
+    }
+    
+    .paddingmid {
+        float: left;
+        width: 10%;
+        height: 1500px;
+        color: rgb(220, 202, 152);
+        background-color: #fee3c3;
+    }
 
-<p>Things I like to do:</p>
-<ul>
-  <li>run</li>
-  <li>watch TV</li>
-  <li>eat</li>
-  <li>sleep</li>
-  <li>spend time with family</li>
-</ul>
+    .leftcolumn {
+        float: left;
+        width: 45%;
+        color: black;
+        border: 5px solid black;
+        background-color: rgb(220, 202, 152);
+        border-radius: 10px;
+    }
 
-<hr />
+    .blend-text{
+        color: #fee3c3;
+    }
+    
+    .black-text{
+        color: black;
+        text-align: center;
+    }
 
-<p>Thanks for checking out the About Me section! Feel free to look around the <a href="https://muffinman1287.github.io/FirstFastPage/">site</a>.</p>
+    .member-title{
+        margin-top: 20px;
+        float: left;
+        width: 30%;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid gray;
+        border-radius: 10px;
+    }
+
+    .member-blocks {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        margin-top: 20px;
+        float: left;
+        width: 30%;
+        background-color: #fdf9f6;
+    }
+
+    .member-image {
+        background-color: blueviolet;
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        
+        float: left;
+        
+    }
+
+    .member-head {
+        position: relative;
+        top: 0;
+        width: 60%;
+        float: left;
+        margin: 10px;
+        display: inline;
+    }
+
+    .member-description {
+        display: block;
+        margin: 10px;
+        width: 30%;
+    }
+
+    .member-description2 {
+        display: block;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .button {
+        margin: 0 auto;
+        border: none;
+        color: goldenrod;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .button:hover {
+        background-color: #000000;
+        color: white;
+    }
+    
+    .dnlogo{
+        width: 320px;
+        height: 320px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 25px;
+        border-radius: 10px;
+    }
+
+
+&lt;/style&gt;
+&lt;div class="aboutbackground"&gt;&lt;/div&gt;
+&lt;div class="paddingleft"&gt;
+    &lt;p class="blend-text"&gt;Hello&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="leftcolumn"&gt;
+    &lt;h1 class="black-text"&gt;About Us&lt;/h1&gt;
+    &lt;p class="black-text"&gt;We are TAAL Development team.&lt;/p&gt;
+    &lt;p class="black-text"&gt;We are made of Del Norte High School students.&lt;/p&gt;
+    &lt;p class="black-text"&gt;2 seniors, 1 junior, and 1 sophomore.&lt;/p&gt;
+    &lt;p class="black-text"&gt;We have developed Practice Nexus for our Computer Science Principles project.&lt;/p&gt;
+    &lt;p class="black-text"&gt;We are in Period 4 AP Computer Science Principles with Mr. Yeung.&lt;/p&gt;
+    &lt;img class="dnlogo" src="" alt="Del Norte High School"&gt;
+&lt;/div&gt;
+&lt;div class="paddingmid"&gt;
+    &lt;p class="blend-text"&gt;Hello again&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="member-title"&gt;
+    &lt;h1 class="black-text"&gt;Our Dev Team&lt;/h1&gt;
+    
+&lt;/div&gt;
+&lt;div class="member-blocks"&gt;
+    &lt;img class="member-image" src=""&gt;
+        &lt;h3 class="member-head"&gt;Scrum Master: Arnav&lt;/h3&gt;
+            &lt;p class="member-description"&gt;DNHS Senior&lt;/p&gt;
+            &lt;p class="member-description2"&gt;Enjoys eating, sleeping, watching sports and movies, hanging out with friends&lt;/p&gt;
+            &lt;button class="button"&gt;&lt;a href="https://muffinman1287.github.io/FirstFastPage/"&gt;Fastpages&lt;/a&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div class="member-blocks"&gt;
+    &lt;img class="member-image" src=""&gt;
+        &lt;h3 class="member-head"&gt;Frontend: Aditya&lt;/h3&gt;
+            &lt;p class="member-description"&gt;DNHS Junior&lt;/p&gt;
+            &lt;p class="member-description2"&gt;Enjoys spending time with friends and family, eating chocolate&lt;/p&gt;
+            &lt;button class="button"&gt;&lt;a href="https://firestorm0986.github.io/CSPrepository2/"&gt;Fastpages&lt;/a&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div class="member-blocks"&gt;
+    &lt;img class="member-image" src=""&gt;
+        &lt;h3 class="member-head"&gt;DevOps: Luke&lt;/h3&gt;
+            &lt;p class="member-description"&gt;DNHS Senior&lt;/p&gt;
+            &lt;p class="member-description2"&gt;Enjoys water polo, Magic: The Gathering&lt;/p&gt;
+            &lt;button class="button"&gt;&lt;a href="https://luke-angelini.github.io/Luke1/page2/"&gt;Fastpages&lt;/a&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div class="member-blocks"&gt;
+    &lt;img class="member-image" src=""&gt;
+        &lt;h3 class="member-head"&gt;Backend: Tay&lt;/h3&gt;
+            &lt;p class="member-description"&gt;DNHS Sophomore&lt;/p&gt;
+            &lt;p class="member-description2"&gt;Enjoys running, reading, watching TV&lt;/p&gt;
+            &lt;button class="button"&gt;&lt;a href="https://taykimmy.github.io/VSCodeProject/"&gt;Fastpages&lt;/a&gt;&lt;/button&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
 
   </div>
 
