@@ -7,6 +7,47 @@
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 @import "minima/dark-mode";
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fee3c3;
+    scroll-behavior: smooth;
+}
 
+.text-title {
+    color: black
+}
+
+.position-title-y{
+    padding-top:6rem;
+    padding-bottom:3rem;
+}
+
+.position-title-x{
+    padding-right:3rem;
+    padding-left:3rem;
+}
+
+.auto{
+    margin-right:auto;
+    margin-left:auto;
+}
+.position-subtitle-y{
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+.btn-primary{color:#000000;background-color:#fee3c3;border-color:#fee3c3}
+.btn-primary:hover{color:#fff;background-color:#fee3c3;border-color:#fee3c3}
+.btn-check:focus+.btn-primary,.btn-primary:focus{color:#fff;background-color:#fee3c3;border-color:#fee3c3;box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}
+.btn-check:active+.btn-primary,.btn-check:checked+.btn-primary,.btn-primary.active,.btn-primary:active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#0a58ca;border-color:#0a53be}
+.btn-check:active+.btn-primary:focus,.btn-check:checked+.btn-primary:focus,.btn-primary.active:focus,.btn-primary:active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}
+.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#fee3c3;border-color:#fee3c3}.
+
+.card-text{
+    margin-bottom:0;
+}
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
