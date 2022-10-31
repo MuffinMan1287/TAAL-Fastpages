@@ -57,6 +57,9 @@ title: Math QUiz
     .score-button:hover{
         background-color: #f7c78d;
     }
+    .answertext {
+        color: black;
+    }
 </style>
 <script>
     const apiurl = "https://opentdb.com/api.php?amount=5&category=19&type=multiple"
@@ -154,16 +157,16 @@ title: Math QUiz
     <div class="card-body">
         <h1 class="question-text" id="question1"></h1>
         <div class="question-card" id="wrong3" onclick="answerclick()">
-            <p id="choice1.4"></p> 
+            <p class="answertext" id="choice1.4"></p> 
         </div>
         <div class="question-card" id="wrong1" onclick="answerclick()">
-            <p id="choice1.2"></p> 
+            <p class="answertext" id="choice1.2"></p> 
         </div>
         <div class="question-card" id="wrong2" onclick="answerclick()">
-            <p id="choice1.3"></p> 
+            <p class="answertext" id="choice1.3"></p> 
         </div>
         <div class="question-card" id="correct1" onclick="answerclick()">
-            <p id="choice1.1"></p> 
+            <p class="answertext" id="choice1.1"></p> 
         </div>
     </div>
 </div>
