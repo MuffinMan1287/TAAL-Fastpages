@@ -4,19 +4,17 @@ title: About Me
 permalink: /about/
 ---
 
-
+<html>
     <style>
         body {
             background:#fee3c3;
         }
-
         .paddingleft {
             float: left;
             width: 5%;
             color: rgb(220, 202, 152);
             background-color: #fee3c3;
         }
-        
         .paddingmid {
             float: left;
             width: 10%;
@@ -24,7 +22,6 @@ permalink: /about/
             color: rgb(220, 202, 152);
             background-color: #fee3c3;
         }
-
         .leftcolumn {
             float: left;
             width: 45%;
@@ -33,16 +30,13 @@ permalink: /about/
             background-color: rgb(220, 202, 152);
             border-radius: 10px;
         }
-
         .blend-text{
             color: #fee3c3;
         }
-        
         .black-text{
             color: black;
             text-align: center;
         }
-
         .member-title{
             margin-top: 20px;
             float: left;
@@ -51,7 +45,6 @@ permalink: /about/
             border: 2px solid gray;
             border-radius: 10px;
         }
-
         .member-blocks {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             border-radius: 15px;
@@ -60,18 +53,14 @@ permalink: /about/
             width: 30%;
             background-color: #fdf9f6;
         }
-
         .member-image {
             background-color: blueviolet;
             margin: 10px;
             width: 100px;
             height: 100px;
             border-radius: 10px;
-            
-            float: left;
-            
+            float: left;    
         }
-
         .member-head {
             position: relative;
             top: 0;
@@ -80,19 +69,16 @@ permalink: /about/
             margin: 10px;
             display: inline;
         }
-
         .member-description {
             display: block;
             margin: 10px;
             width: 30%;
         }
-
         .member-description2 {
             display: block;
             margin: 10px;
             width: 100%;
         }
-
         .button {
             margin: 0 auto;
             border: none;
@@ -107,12 +93,10 @@ permalink: /about/
             border-radius: 5px;
             margin-bottom: 20px;
         }
-
         .button:hover {
             background-color: #000000;
             color: white;
         }
-        
         .dnlogo{
             width: 320px;
             height: 320px;
@@ -123,8 +107,6 @@ permalink: /about/
             margin-bottom: 25px;
             border-radius: 10px;
         }
-
-
     </style>
     <div class="aboutbackground"></div>
     <div class="paddingleft">
@@ -143,8 +125,7 @@ permalink: /about/
         <p class="blend-text">Hello again</p>
     </div>
     <div class="member-title">
-        <h1 class="black-text">Our Dev Team</h1>
-        
+        <h1 class="black-text">Our Dev Team</h1>   
     </div>
     <div class="member-blocks">
         <img class="member-image" src="{{ url_for('static', filename='assets/a.png') }}">
@@ -153,7 +134,6 @@ permalink: /about/
                 <p class="member-description2">Enjoys eating, sleeping, watching sports and movies, hanging out with friends</p>
                 <button class="button"><a href="https://muffinman1287.github.io/FirstFastPage/">Fastpages</a></button>
     </div>
-
     <div class="member-blocks">
         <img class="member-image" src="{{ url_for('static', filename='assets/a2.jpeg') }}">
             <h3 class="member-head">Frontend: Aditya</h3>
@@ -161,7 +141,6 @@ permalink: /about/
                 <p class="member-description2">Enjoys spending time with friends and family, eating chocolate</p>
                 <button class="button"><a href="https://firestorm0986.github.io/CSPrepository2/">Fastpages</a></button>
     </div>
-
     <div class="member-blocks">
         <img class="member-image" src="{{ url_for('static', filename='assets/l.jpeg') }}">
             <h3 class="member-head">DevOps: Luke</h3>
@@ -169,7 +148,6 @@ permalink: /about/
                 <p class="member-description2">Enjoys water polo, Magic: The Gathering</p>
                 <button class="button"><a href="https://luke-angelini.github.io/Luke1/page2/">Fastpages</a></button>
     </div>
-
     <div class="member-blocks">
         <img class="member-image" src="{{ url_for('static', filename='assets/t.jpeg') }}">
             <h3 class="member-head">Backend: Tay</h3>
@@ -178,3 +156,4 @@ permalink: /about/
                 <button class="button"><a href="https://taykimmy.github.io/VSCodeProject/">Fastpages</a></button>
     </div>
 
+</html>
