@@ -61,6 +61,14 @@ title: Geography Quiz
     .answertext {
         color:black;
     }
+    .score-tell {
+        height:25px;
+        width:150px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background-color: #f5f4f2;
+        border:1px solid black;
+    }
 </style>
 <script>
     const apiurl = "https://opentdb.com/api.php?amount=5&category=22&type=multiple"
@@ -148,6 +156,11 @@ title: Geography Quiz
         document.getElementById("wrong2.4").innerHTML = "wrong";
         document.getElementById("wrong3.4").innerHTML = "wrong";
     }
+    var score = 0;
+    function ScoreCalculator(){
+        document.getElementById("score").innerHTML = "Your score is " + score + "/5";
+        document.getElementById("score").className = "score-tell";
+    }
 </script>
 
 
@@ -166,7 +179,7 @@ title: Geography Quiz
         <div class="question-card" id="wrong2" onclick="answerclick()">
             <p class="answertext" id="choice1.3"></p> 
         </div>
-        <div class="question-card" id="correct1" onclick="answerclick()">
+        <div class="question-card" id="correct1" onclick="answerclick(); score += 1;">
             <p class="answertext" id="choice1.1"></p> 
         </div>
     </div>
@@ -177,7 +190,7 @@ title: Geography Quiz
         <div class="question-card" id="wrong1.1" onclick="answerclick2()">
             <p id="choice2.2"></p> 
         </div>
-        <div class="question-card" id="correct2" onclick="answerclick2()">
+        <div class="question-card" id="correct2" onclick="answerclick2(); score += 1;">
             <p id="choice2.1"></p> 
         </div>
         <div class="question-card" id="wrong2.1" onclick="answerclick2()">
@@ -197,7 +210,7 @@ title: Geography Quiz
         <div class="question-card" id="wrong1.2" onclick="answerclick3()">
             <p id="choice3.2"></p> 
         </div>
-        <div class="question-card" id="correct3" onclick="answerclick3()">
+        <div class="question-card" id="correct3" onclick="answerclick3(); score += 1;">
             <p id="choice3.1"></p> 
         </div>
         <div class="question-card" id="wrong3.2" onclick="answerclick3()">
@@ -208,7 +221,7 @@ title: Geography Quiz
 <center><div class="position-back-card position-question">
     <div class="card-body">
         <h1 class="question-text" id="question4"></h1>
-        <div class="question-card" id="correct4" onclick="answerclick4()">
+        <div class="question-card" id="correct4" onclick="answerclick4(); score += 1;">
             <p id="choice4.1"></p> 
         </div>
         <div class="question-card" id="wrong1.3" onclick="answerclick4()">
@@ -235,9 +248,10 @@ title: Geography Quiz
             <p id="choice5.3"></p> 
         </div>
 
-        <div class="question-card" id="correct5" onclick="answerclick5()">
+        <div class="question-card" id="correct5" onclick="answerclick5(); score += 1;">
             <p id="choice5.1"></p> 
         </div>
     </div>
 </div>
-<center><button class="score-button">score</button></center>
+<center><button class="score-button" id="scorebutton" onclick="ScoreCalculator()">Score</button></center>
+    <div id="score"></div>
