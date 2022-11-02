@@ -37,8 +37,8 @@
 
   
       ,"page2": {
-          "title": "Math QUiz",
-          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . Math Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
+          "title": "Math Quiz",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . SAT Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/mathquiz/",
           "relUrl": "/mathquiz/",
           "date": ""
@@ -48,10 +48,21 @@
 
   
       ,"page3": {
-          "title": "Geography QUiz",
-          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . Math Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
+          "title": "Geography Quiz",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . Geography Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/geoquiz/",
           "relUrl": "/geoquiz/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page4": {
+          "title": "SAT Quiz",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . SAT Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
+          "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/satquiz/",
+          "relUrl": "/satquiz/",
           "date": ""
       }
       
@@ -77,7 +88,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/robots.txt",
