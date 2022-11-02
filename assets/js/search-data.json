@@ -16,7 +16,7 @@
   
       ,"page0": {
           "title": "About Me",
-          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . Hello . About Us . We are TAAL Development team. . We are made of Del Norte High School students. . 2 seniors, 1 junior, and 1 sophomore. . We have developed Practice Nexus for our Computer Science Principles project. . We are in Period 4 AP Computer Science Principles with Mr. Yeung. . Hello again . Our Dev Team . Scrum Master: Arnav . DNHS Senior . Enjoys eating, sleeping, watching sports and movies, hanging out with friends . Fastpages Frontend: Aditya . DNHS Junior . Enjoys spending time with friends and family, eating chocolate . Fastpages DevOps: Luke . DNHS Senior . Enjoys water polo, Magic: The Gathering . Fastpages Backend: Tay . DNHS Sophomore . Enjoys running, reading, watching TV . Fastpages .",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz SAT Quiz About Feedback . Hello . About Us . We are TAAL Development team. . We are made of Del Norte High School students. . 2 seniors, 1 junior, and 1 sophomore. . We have developed Practice Nexus for our Computer Science Principles project. . We are in Period 4 AP Computer Science Principles with Mr. Yeung. . Hello again . Our Dev Team . Scrum Master: Arnav . DNHS Senior . Enjoys eating, sleeping, watching sports and movies, hanging out with friends . Fastpages Frontend: Aditya . DNHS Junior . Enjoys spending time with friends and family, eating chocolate . Fastpages DevOps: Luke . DNHS Senior . Enjoys water polo, Magic: The Gathering . Fastpages Backend: Tay . DNHS Sophomore . Enjoys running, reading, watching TV . Fastpages .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/about/",
           "relUrl": "/about/",
           "date": ""
@@ -27,7 +27,7 @@
   
       ,"page1": {
           "title": "Math QUiz",
-          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . Take our Feedback Quiz? . What did you like or dislike about our quiz or site? . Is there anything you would like to see added? . Let us know by taking the Feedback survey. . We would really appreciate your comments! . Take the survey! &lt;/div&gt; .",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz SAT Quiz About Feedback . Take our Feedback Quiz? . What did you like or dislike about our quiz or site? . Is there anything you would like to see added? . Let us know by taking the Feedback survey. . We would really appreciate your comments! . Take the survey! &lt;/div&gt; .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/feedback/",
           "relUrl": "/feedback/",
           "date": ""
@@ -38,7 +38,7 @@
   
       ,"page2": {
           "title": "Math Quiz",
-          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . Math Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz SAT Quiz About Feedback . Math Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/mathquiz/",
           "relUrl": "/mathquiz/",
           "date": ""
@@ -49,7 +49,7 @@
   
       ,"page3": {
           "title": "Geography Quiz",
-          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . Geography Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz SAT Quiz About Feedback . Geography Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/geoquiz/",
           "relUrl": "/geoquiz/",
           "date": ""
@@ -60,9 +60,20 @@
   
       ,"page4": {
           "title": "SAT Quiz",
-          "content": "| Practice Nexus Home Math Quiz Geography Quiz About Feedback . SAT Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz SAT Quiz About Feedback . SAT Quiz . . . . . . . . . . . . . . . . . . . . . . . . . . score .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/satquiz/",
           "relUrl": "/satquiz/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page5": {
+          "title": "Feedback",
+          "content": "| Practice Nexus Home Math Quiz Geography Quiz SAT Quiz About Feedback . Take our Feedback Quiz! . What did you like or dislike about our quiz or site? . Is there anything you would like to see added? . Let us know by taking the Feedback survey. . We would really appreciate your comments! . Take the survey! &lt;/div&gt; .",
+          "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/feedback/",
+          "relUrl": "/feedback/",
           "date": ""
       }
       
@@ -88,7 +99,7 @@
   
 
   
-      ,"page12": {
+      ,"page13": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://muffinman1287.github.io/PracticeNexus//PracticeNexus/robots.txt",
